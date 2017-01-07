@@ -1,11 +1,8 @@
 #pragma once
 #ifndef ZM_STRING_H_
 #define ZM_STRING_H_
-#ifdef STL_EXPORTS
-#define DllExport __declspec(dllexport)
-#else
-#define DllExport __declspec(dllimport)
-#endif
+
+#include "zm_export_define.h"
 #include <ostream>
 namespace zm
 {
