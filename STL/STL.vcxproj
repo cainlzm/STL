@@ -150,6 +150,9 @@
     <ClCompile Include="zm_string.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\zm_export_define.h" />
+    <ClInclude Include="..\include\zm_stl_alloc.h" />
+    <ClInclude Include="..\include\zm_stl_construct.h" />
     <ClInclude Include="..\include\zm_string.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
