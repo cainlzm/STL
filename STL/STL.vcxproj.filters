@@ -27,6 +27,12 @@
     <ClInclude Include="..\include\zm_export_define.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\zm_stl_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zm_type_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="zm_string.cpp">

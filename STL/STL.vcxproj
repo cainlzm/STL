@@ -153,7 +153,9 @@
     <ClInclude Include="..\include\zm_export_define.h" />
     <ClInclude Include="..\include\zm_stl_alloc.h" />
     <ClInclude Include="..\include\zm_stl_construct.h" />
+    <ClInclude Include="..\include\zm_stl_iterator.h" />
     <ClInclude Include="..\include\zm_string.h" />
+    <ClInclude Include="..\include\zm_type_traits.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
