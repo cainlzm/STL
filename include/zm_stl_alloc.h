@@ -262,4 +262,26 @@ namespace zm
 			return chunk_alloc(size, nobjs);
 		}
 	}
+
+	template<class T, class Alloc>
+	class simple_alloc
+	{
+	public:
+		static T* allocate(size_t n)
+		{
+			return 0==n ? 0 : (T*)Alloc::allocate(sizeof(T)*n);
+		}
+		static T* allocate()
+		{
+			return (T*)Alloc::allocate(sizeof(T));
+		}
+		static void deallocate(T * p, size_t n)
+		{
+			Alloc::deallocate(p, sizeof(T)*n);
+		}
+		static void deallocate(T * p)
+		{
+			Alloc::deallocate(p, sizeof(T));
+		}
+	};
 }

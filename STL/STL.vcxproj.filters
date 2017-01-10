@@ -33,6 +33,12 @@
     <ClInclude Include="..\include\zm_type_traits.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\zm_stl_uninitialized.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\zm_stl_algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="zm_string.cpp">

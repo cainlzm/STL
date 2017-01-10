@@ -151,9 +151,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\zm_export_define.h" />
+    <ClInclude Include="..\include\zm_stl_algobase.h" />
     <ClInclude Include="..\include\zm_stl_alloc.h" />
     <ClInclude Include="..\include\zm_stl_construct.h" />
     <ClInclude Include="..\include\zm_stl_iterator.h" />
+    <ClInclude Include="..\include\zm_stl_uninitialized.h" />
     <ClInclude Include="..\include\zm_string.h" />
     <ClInclude Include="..\include\zm_type_traits.h" />
   </ItemGroup>

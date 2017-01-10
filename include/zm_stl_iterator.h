@@ -66,7 +66,7 @@ namespace zm
 	//这个函数可以决定某个迭代器的value type
 	template<class Iterator>
 	inline typename iterator_traits<Iterator>::value_type *
-		distance_type(const Iterator&)
+	value_type(const Iterator&)
 	{
 		return static_cast<typename iterator_traits<Iterator>::value_type *>(0);
 	}
